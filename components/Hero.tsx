@@ -32,9 +32,7 @@ export function Hero() {
             </h1>
 
             <p className="mt-6 max-w-[38rem] text-lg text-ink-muted">
-              I build and research technical systems, including graph neural networks validating ecological
-              data, production ML pipelines, and the full-stack applications that put them in front
-              of people.
+              I am a Master's student in Computer Science at NC State and a Research Associate at iEXCEL Lab. I work where research meets engineering. I've benchmarked embedding models across thousands of papers, created local LLM chatbots and voice cloning tools, and shipped complete web apps from the database to the interface.
             </p>
 
             <div className="mt-10 flex flex-wrap items-center gap-3">

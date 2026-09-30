@@ -4,7 +4,7 @@ import { skillGroups } from "@/lib/data";
 
 export function SkillsSection() {
   return (
-    <Section id="skills" heading="Tools I work with">
+    <Section id="skills" heading="Skills & Tools" width="content">
       <dl className="divide-y divide-line border-t border-line">
         {skillGroups.map((group) => (
           <div

@@ -61,12 +61,13 @@ const config: Config = {
         none: "none",
       },
       maxWidth: {
-        prose: "48rem", // 768px — text-heavy single-column sections
+        prose: "56rem", // 896px — text-heavy single-column sections
         content: "72rem", // 1152px — wider card grids
       },
       spacing: {
         header: "3.75rem", // 60px sticky header height
-        section: "5.5rem",
+        "section-top": "2 rem", // space above the section heading
+        section: "0.75 rem", // space below a section's content, before the next section
         "section-lg": "8rem",
       },
       transitionDuration: {

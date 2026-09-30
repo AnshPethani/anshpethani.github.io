@@ -22,7 +22,7 @@ function ProjectTitle({
   if (project.url) {
     return (
       <h3 id={headingId} className={className}>
-        <ExternalLink href={project.url} className="text-ink no-underline hover:text-accent hover:underline">
+        <ExternalLink href={project.url} className="text-accent underline hover:underline">
           {project.name}
         </ExternalLink>
       </h3>

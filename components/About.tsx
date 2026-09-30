@@ -6,23 +6,22 @@ export function About() {
     <Section id="about" heading="About" width="prose">
       <div className="space-y-5 text-lg text-ink-muted">
         <p>
-          I&rsquo;m a Master of Computer Science student at
-          North Carolina State University, holding a 4.0
-          GPA, after a B.Tech in Information Technology from Vellore Institute of Technology
-          (8.91/10 CGPA).
+          I&rsquo;m a Master&rsquo;s student in Computer Science at North Carolina State
+          University, where I hold a 4.0 GPA, and a Research Associate at the iEXCEL Lab. I work
+          at the point where machine learning research turns into software people can actually use.
         </p>
         <p>
-          At the iEXCEL Lab I work on graph neural networks that validate trophic interactions in
-          crowdsourced food web data, and on folding pre-trained multi-species computer vision
-          models into the lab&rsquo;s existing web stack. It is a mixture of research and product development, 
-          which is the part I like.
+          At iEXCEL, I train graph neural networks to check the quality of crowdsourced scientific
+          data, and I bring pretrained computer vision models into the lab&rsquo;s web platform. I
+          also designed a topic modeling pipeline that compares five embedding models across thousands of publications to map how research connects across a university. Half the work
+          is asking the right question. The other half is making the answer run reliably.
         </p>
         <p>
-          Before that, I spent two years in research labs and startups, working on Python ETL pipelines that
-          reconcile conflicting CSV, XML, and JSON records, LLM tooling for automated quiz
-          generation, object detection models, and full-stack products in React, FastAPI, and
-          PostgreSQL. I&rsquo;ve also published two peer-reviewed papers, on NFT copyright law
-          and on data security in marketing.
+          Before this, I spent two years across research labs and startups. I built Python
+          pipelines that reconcile messy records from CSV, XML and JSON sources, LLM tools that
+          generate quizzes automatically, object detection models, and complete web products with
+          ReactJS, FastAPI and Postgres. I also coauthored two published papers, one on NFT
+          copyright law and one on data security in marketing.
         </p>
       </div>
     </Section>

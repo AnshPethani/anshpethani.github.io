@@ -27,13 +27,13 @@ export function Section({
   const headingId = `${id}-heading`;
 
   return (
-    <section id={id} aria-labelledby={headingId} className={cn("py-section", className)}>
+    <section id={id} aria-labelledby={headingId} className={cn("pt-section-top pb-section", className)}>
       <Container width="content">
         <div className={cn(width === "prose" && "max-w-prose")}>
           <h2 id={headingId} className="text-2xl">
             {heading}
           </h2>
-          <div className="mt-10">{children}</div>
+          <div className="mt-3">{children}</div>
         </div>
       </Container>
     </section>

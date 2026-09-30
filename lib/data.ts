@@ -201,18 +201,16 @@ export const projects: Project[] = [
     name: "Hungry Wolf",
     year: "2025",
     pitch:
-      "Gamified food delivery platform. Built the delivery module end-to-end — backend routes and models plus the frontend order-management UI — and fixed the CI/CD pipeline for the full-stack ordering experience.",
+      "Gamified food delivery platform. Built the delivery module end-to-end including backend routes, models, and the frontend order-management UI. I also fixed the CI/CD pipeline for the full-stack ordering experience.",
     tech: [
-      "React 18",
-      "React Router",
+      "ReactJS",
       "React Query",
+      "REST API",
       "Node.js",
-      "Express.js",
-      "Firebase Firestore",
-      "Firebase Auth",
+      "Firebase",
       "CSS",
     ],
-    url: "https://github.com/yashvinshah/SE_2025_projects/tree/main/proj2",
+    url: "https://github.com/yashvinshah/SE_2025_projects/tree/main/proj2#readme",
   },
   {
     name: "NBA/ABA Statistics and Future Predictions",
@@ -257,7 +255,6 @@ export const projects: Project[] = [
     pitch:
       "Website for the International Symposium on Mathematical Analysis of Fractals & Dynamical Systems at VIT Vellore, built from a template.",
     tech: ["HTML", "CSS", "JavaScript", "Bootstrap", "jQuery"],
-    url: "https://vit.ac.in/ISMAFDS-2023/",
   },
 ];
 
