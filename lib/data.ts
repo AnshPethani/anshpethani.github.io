@@ -76,6 +76,7 @@ export const roles: Role[] = [
       "Engineering a GNN to validate trophic interactions and generate interaction plausibility scores from crowdsourced food web data",
       "Integrating pre-trained multi-species computer vision pipelines into existing backend and frontend architectures",
       "Facilitating expert validation studies for a vision-model-based alt-text generator and deploying analytical tools driven by large-scale publication datasets",
+      "Review and approve work from undergraduate researchers and give feedback to improve it.",
     ],
     tech: ["Graph Neural Networks", "Computer Vision", "Backend Development", "GenAI", "Python", "Git"],
   },

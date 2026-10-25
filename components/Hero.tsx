@@ -32,7 +32,7 @@ export function Hero() {
             </h1>
 
             <p className="mt-6 max-w-[38rem] text-lg text-ink-muted">
-              I am a Master's student in Computer Science at NC State and a Research Associate at iEXCEL Lab. I work where research meets engineering. I've benchmarked embedding models across thousands of papers, created local LLM chatbots and voice cloning tools, and shipped complete web apps from the database to the interface.
+              I am a Master&apos;s student in Computer Science at NC State and a Research Associate at iEXCEL Lab. I work where research meets engineering. I&apos;ve benchmarked embedding models across thousands of papers, created local LLM chatbots and voice cloning tools, and shipped complete web apps from the database to the interface.
             </p>
 
             <div className="mt-10 flex flex-wrap items-center gap-3">
