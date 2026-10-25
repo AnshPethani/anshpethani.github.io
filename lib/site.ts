@@ -15,7 +15,6 @@ export const site = {
 } as const;
 
 export const navItems: { label: string; href: string }[] = [
-  { label: "About", href: "#about" },
   { label: "Experience", href: "#experience" },
   { label: "Education", href: "#education" },
   { label: "Skills", href: "#skills" },

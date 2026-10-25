@@ -9,7 +9,7 @@ import { site } from "@/lib/site";
 
 export function Hero() {
   return (
-    <section id="hero" aria-labelledby="hero-heading" className="pb-section pt-16 sm:pt-24">
+    <section id="hero" aria-labelledby="hero-heading" className="pb-section pt-10 sm:pt-14">
       <Container>
         {/*
          * Explicit grid placement rather than order utilities, so the DOM order
@@ -32,17 +32,24 @@ export function Hero() {
             </h1>
 
             <p className="mt-6 max-w-[38rem] text-lg text-ink-muted">
-              I am a Master&apos;s student in Computer Science at NC State and a Research Associate at iEXCEL Lab. I work where research meets engineering. I&apos;ve benchmarked embedding models across thousands of papers, created local LLM chatbots and voice cloning tools, and shipped complete web apps from the database to the interface.
+              I&apos;m a Master&apos;s student in Computer Science at NC State and a Research Associate
+              at the iEXCEL Lab, working where machine learning research turns into software people
+              can actually use.
+            </p>
+            <p className="mt-3 max-w-[38rem] text-lg text-ink-muted">
+              I train graph neural networks to vet crowdsourced scientific data, benchmark embedding
+              models across thousands of publications, and build LLM tools and full-stack apps
+              from the database to the interface.
             </p>
 
-            <div className="mt-10 flex flex-wrap items-center gap-3">
+            <div className="mt-8 flex flex-wrap items-center gap-3">
               <Button href="#projects">View My Work</Button>
               <Button href="#contact" variant="secondary">
                 Get In Touch
               </Button>
             </div>
 
-            <ul className="mt-10 flex items-center gap-5">
+            <ul className="mt-8 flex items-center gap-5">
               <li>
                 <IconLink href={social.github} label="GitHub" icon={Github} />
               </li>

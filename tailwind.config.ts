@@ -66,8 +66,8 @@ const config: Config = {
       },
       spacing: {
         header: "3.75rem", // 60px sticky header height
-        "section-top": "2 rem", // space above the section heading
-        section: "0.75 rem", // space below a section's content, before the next section
+        "section-top": "2.5rem", // space above the section heading
+        section: "2.5rem", // space below a section's content, before the next section
         "section-lg": "8rem",
       },
       transitionDuration: {
